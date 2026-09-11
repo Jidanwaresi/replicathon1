@@ -8,3 +8,6 @@ html, body {
     height: 100%;
     width: 100%;
 }
+body{
+    background: radial-gradient(circle, #FF9A1F 0%, #E85a00 75%) ;
+}
