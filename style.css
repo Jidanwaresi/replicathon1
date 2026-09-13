@@ -246,3 +246,18 @@ footer{
     width: 16px;
     height: 16px;
 }
+
+.center img {
+    animation: shoeMove 2s infinite;
+}
+@keyframes shoeMove{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
